@@ -8,4 +8,91 @@ body, html {
     padding: 0;
     color: #293241;
     font-size: 18px;
+    background-color: #FFFFFF;
+}
+
+#line {
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    left: 0px;
+    top: 92px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#page-header {
+    position: absolute;
+    width: 1440px;
+    height: 894px;
+    left: -3px;
+    top: 4px;
+}
+
+#nav-box {
+    position: absolute;
+    width: 1440px;
+    height: 93px;
+    left: 0px;
+    top: 0px;
+}
+
+#nav-bar {
+    position: absolute;
+    width: 1240px;
+    height: 56px;
+    left: 100px;
+    top: 18px;
+}
+
+#frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 64px;
+
+    position: absolute;
+    left: 61.45%;
+    right: 16.37%;
+    top: 28.57%;
+    bottom: 28.57%;
+}
+
+#home {
+    font-weight: 700; 
+}
+
+#home:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#explore:hover, #about:hover{
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#in:hover {
+    background-color: #ffb6b6;
+    color: #293241;
+    border: 0.5px solid #293241;
+    cursor: pointer;
+}
+
+#in {
+    position: absolute;
+    left: 90.16%;
+    right: 0%;
+    top: 12.5%;
+    bottom: 10.71%;
+
+    background-color: #EE6C4D;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 48px;
+
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
 }
