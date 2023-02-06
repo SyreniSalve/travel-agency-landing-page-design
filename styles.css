@@ -1,8 +1,12 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
 
-body, html, a {
+body,
+html,
+a {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -42,24 +46,74 @@ a {
     color: #293241;
 }
 
-a:hover{
+a:hover {
     font-weight: 700;
     cursor: pointer;
 }
 
-.sign-in:hover {
+.button:hover {
     background-color: #8b5d5d;
     border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
 
-.sign-in {
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 43px;
-    width: 122px;
+    width: 150px;
     background-color: #EE6C4D;
     border-radius: 48px;
+    border: none;
     font-weight: 700;
     font-size: 18px;
     color: #FFFFFF;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    height: 812px;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 20px;
+    width: 1233.98px;
+    height: 631.05px;
+    background-image: url(images/hero.png);
+    background-position: right 60%;
+    background-repeat: no-repeat;
+}
+
+.title {
+    margin-top: 160px;
+    width: 494px;
+    height: 225px;
+    color: #EE6C4D;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.title p,
+.description p {
+    margin-top: 0px;
+}
+
+.description {
+    display: flex;
+    width: 360px;
+    height: 90px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 24px;
+
+}
+
+.bold {
+    font-weight: bold;
 }
