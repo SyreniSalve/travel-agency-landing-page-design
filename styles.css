@@ -1,13 +1,19 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
 
-body, html, a {
+body,
+html {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     color: #293241;
     font-size: 18px;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -42,7 +48,7 @@ a {
     color: #293241;
 }
 
-a:hover{
+a:hover {
     font-weight: 700;
     cursor: pointer;
 }
