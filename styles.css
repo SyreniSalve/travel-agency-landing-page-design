@@ -113,15 +113,14 @@ a:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 1055px;
-    margin: 50px;
+    height: 1552px;
     background-image: url(images/destinations_background.png);
-    background-origin: border-box;
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .destination h2 {
-    margin-top: 145px;
+    margin-top: 250px;
+    margin-bottom: 180px;
     height: 40px;
     color: white;
 }
@@ -140,6 +139,13 @@ a:hover {
 
 }
 
+.destination-images img:hover {
+    width: 281px;
+    height: 398px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
 figcaption {
     display: flex;
     flex-direction: column;
@@ -147,6 +153,16 @@ figcaption {
     padding: 14px 25px;
     background-color: white;
     border-radius: 20px;
+}
+
+.destination-images figure figcaption {
+	visibility: hidden;
+}
+
+.destination-images figure:hover figcaption {
+	visibility: visible;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
 }
 
 .town {
