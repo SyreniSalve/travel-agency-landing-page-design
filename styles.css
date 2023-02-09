@@ -14,8 +14,13 @@ html {
 }
 
 a {
-    color: #293241;
     text-decoration: none;
+    color: #293241;
+}
+
+a:hover {
+    font-weight: 700;
+    cursor: pointer;
 }
 
 a:hover {
