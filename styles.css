@@ -108,3 +108,58 @@ a:hover {
     height: 90px;
     margin-bottom: 24px;
 }
+
+.destination {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 1055px;
+    margin: 50px;
+    background-image: url(images/destinations_background.png);
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
+
+.destination h2 {
+    margin-top: 145px;
+    height: 40px;
+    color: white;
+}
+
+.destination-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.destination-images img {
+    width: 279px;
+    height: 396px;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+
+figcaption {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 14px 25px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.town {
+    size: 24px;
+    font-weight: 700;
+}
+
+.stars img.star {
+    width: 20px;
+    height: 17px;
+}
+
+.stars img.star_half {
+    width: 10px;
+    height: 17px;
+}
