@@ -128,10 +128,8 @@ a:hover {
 }
 
 .destination h2 {
-  display: flex;
-  align-items: flex-end;
+  margin-top: 200px;
   width: 576px;
-  height: 200px;
   font-size: 36px;
   line-height: 54px;
   color: white;
