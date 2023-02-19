@@ -232,19 +232,9 @@ figure:hover figcaption {
   line-height: 15px;
 }
 
-.information div:first-child {
-  width: 628px;
-  height: 108px;
-}
-
-.information div:nth-child(2) {
+.information div {
   width: 664px;
   height: 108px;
-}
-
-.information div:last-child {
-  width: 579px;
-  height: 72px;
 }
 
 .background-about {
