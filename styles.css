@@ -101,7 +101,7 @@ a:hover {
   height: 631px;
 }
 
-.background {
+.background-hero {
   width: 785px;
   height: 631px;
   margin-top: 105px;
@@ -263,7 +263,6 @@ figure:hover figcaption {
   background-image: url(images/tourists.png);
   background-position: right;
   background-repeat: no-repeat;
-  
 }
 
 .subscription h1 {
@@ -290,4 +289,76 @@ figure:hover figcaption {
 form {
   display: flex;
   flex-direction: row;
+}
+
+/*FOOTER*/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px;
+  gap: 60px;
+  height: 535px;
+  margin-top: 118px;
+  background-image: url(images/footer_background.png);
+  background-size: 100% 100%;
+  color: white;
+}
+
+.social-network-logos {
+  width: 146px;
+  margin-top: 83px;
+}
+
+.social-network-logos ol {
+  padding: 5px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navigations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 50px;
+}
+.navigations nav {
+  margin-top: 40px;
+  width: 176px;
+}
+
+.navigations h3 {
+  font-size: 18px;
+}
+
+.navigations ol {
+  margin-top: 40px;
+  padding: 0px;
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 39px;
+}
+
+.navigations a {
+  color: white;
+}
+
+.navigations nav:nth-child(1) {
+  width: 107px;
+}
+
+.navigations nav:nth-child(2) {
+  width: 182px;
+}
+
+.navigations nav:nth-child(3) {
+  width: 102px;
+}
+
+.navigations nav:nth-child(4) {
+  width: 274px;
 }
