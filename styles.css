@@ -205,3 +205,41 @@ figure:hover figcaption {
   width: 10px;
   height: 17px;
 }
+
+/* ABOUT US section */
+
+.about-us {
+  margin: 190px 100px 0px 100px;
+}
+
+.about-us h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.amazing-taiwan {
+  color: #ee6c4d;
+}
+
+.information-and-background {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.information {
+  margin-top: 108px;
+  line-height: 15px;
+}
+
+.information div {
+  width: 664px;
+  height: 108px;
+}
+
+.background-about {
+  margin-top: 50px;
+  width: 593px;
+  height: 575px;
+  background-image: url(images/about.png);
+}
