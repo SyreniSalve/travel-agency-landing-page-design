@@ -20,7 +20,7 @@
         <img src="images/logo.png" alt="logo" />
         <div class="meniu">
           <nav class="frames">
-            <ol>
+            <ol class="flex-row-container">
               <li><a href="#">Home</a></li>
               <li><a href="#destination">Explore</a></li>
               <li><a href="#about-us">About</a></li>
@@ -30,8 +30,8 @@
         </div>
       </div>
     </header>
-    <section class="section">
-      <div class="presentation">
+    <section class="presentation">
+      <div class="flex-column-container">
         <h1 class="title">Discover your next place to travel in Taiwan</h1>
         <p class="description">
           Since 2020, we've quided more than 100.000 people to enjoy their best
@@ -43,7 +43,7 @@
     </section>
     <section class="destination" id="destination">
       <h2>Popular destinations in Taiwan</h2>
-      <div class="destination-images">
+      <div class="flex-row-container">
         <figure>
           <img src="images/taipei.jpg" alt="tapei" class="img-tapei" />
           <figcaption>
@@ -111,7 +111,7 @@
     </section>
     <section class="about-us" id="about-us">
       <h2>About Us</h2>
-      <div class="information-and-background">
+      <div class="flex-row-container">
         <div class="information">
           <div>
             <p>
@@ -139,8 +139,9 @@
     <section class="newsletter">
       <div class="subscription">
         <h1>Subscribe our newsletter</h1>
-        <p>Receive latest news, update, and many other things ever week.</p>
-        <form action="#" method="subscribe">
+        <p class="first-p">Receive latest news, update, and many other things</p>
+        <p class="second-p"> every week.</p>
+        <form action="#" method="post" class="flex-row-container">
           <input class="email" type="email" id="email" name="email" placeholder="Your email here" />
           <input type="submit" class="button" value="Join Now"/>
         </form>
