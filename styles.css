@@ -23,6 +23,14 @@ a:hover {
   cursor: pointer;
 }
 
+.email-form,
+.frames ol,
+.components,
+.background-and-text {
+  display: flex;
+  flex-direction: row;
+}
+
 .page-header {
   height: 82px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -41,8 +49,6 @@ a:hover {
 }
 
 .frames ol {
-  display: flex;
-  flex-direction: row;
   margin-top: 16px;
   margin-right: 81px;
   padding: 0px;
@@ -73,7 +79,7 @@ a:hover {
   color: #ffffff;
 }
 
-.section {
+.presentation {
   display: flex;
   justify-content: space-around;
   height: 812px;
@@ -81,27 +87,20 @@ a:hover {
 
 .title {
   margin-top: 160px;
-}
-
-.title h1 {
-  display: flex;
   color: #ee6c4d;
   width: 494px;
   height: 225px;
   font-size: 50px;
-  margin-top: 0px;
   margin-bottom: 6px;
 }
 
-.presentation {
-  display: flex;
-  flex-direction: column;
+.information {
   margin: 100px 20px;
   width: 250px;
   height: 631px;
 }
 
-.background-hero {
+.background {
   width: 785px;
   height: 631px;
   margin-top: 105px;
@@ -110,8 +109,6 @@ a:hover {
 }
 
 .description {
-  display: flex;
-  flex-direction: column;
   width: 360px;
   height: 90px;
   margin-bottom: 24px;
@@ -136,15 +133,13 @@ a:hover {
   color: white;
 }
 
-.destination-images {
-  display: flex;
+.components {
   justify-content: space-around;
   width: 1449px;
   height: 800px;
-  flex-direction: row;
 }
 
-.destination-images img {
+.components img {
   width: 279px;
   height: 396px;
   margin-top: 11px;
@@ -222,20 +217,19 @@ figure:hover figcaption {
   color: #ee6c4d;
 }
 
-.information-and-background {
-  display: flex;
-  flex-direction: row;
+.background-and-text {
   justify-content: space-around;
 }
 
-.information {
+.text {
   margin-top: 108px;
-  line-height: 15px;
+  font-size: 24px;
+  line-height: 36px;
 }
 
-.information div {
+.text p {
   width: 664px;
-  height: 108px;
+  gap: 27px;
 }
 
 .background-about {
@@ -248,9 +242,9 @@ figure:hover figcaption {
 /* NEWSLETTER section */
 
 .newsletter {
-  margin-top: 357px;
   display: flex;
   justify-content: center;
+  margin-top: 357px;
 }
 
 .subscription {
@@ -265,13 +259,12 @@ figure:hover figcaption {
   background-repeat: no-repeat;
 }
 
-.subscription h1 {
+.subscription h2 {
   margin-bottom: 10px;
 }
 
 .subscription p {
   width: 505px;
-  height: 53px;
   margin-top: 9px;
   margin-bottom: 54px;
 }
@@ -284,11 +277,6 @@ figure:hover figcaption {
   padding-left: 30px;
   margin-right: 15px;
   border: none;
-}
-
-form {
-  display: flex;
-  flex-direction: row;
 }
 
 /*FOOTER*/
