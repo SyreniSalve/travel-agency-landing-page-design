@@ -321,6 +321,10 @@ figure:hover figcaption {
   font-size: 18px;
 }
 
+.navigations a {
+    color: white;
+}
+
 .navigations ol {
   margin-top: 40px;
   padding: 0px;
