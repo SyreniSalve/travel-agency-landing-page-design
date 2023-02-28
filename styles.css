@@ -309,7 +309,7 @@ figure:hover figcaption {
 .navigations {
   justify-content: space-around;
   padding: 100px;
-  gap: 50px;
+  gap: 60px;
 }
 
 .navigations nav {
@@ -322,7 +322,7 @@ figure:hover figcaption {
 }
 
 .navigations a {
-    color: white;
+  color: white;
 }
 
 .navigations ol {
@@ -331,4 +331,8 @@ figure:hover figcaption {
   list-style-type: none;
   font-size: 18px;
   line-height: 39px;
+}
+
+.navigations nav {
+    width: 182px;
 }
