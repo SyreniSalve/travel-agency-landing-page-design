@@ -26,7 +26,10 @@ a:hover {
 .email-form,
 .frames ol,
 .components,
-.background-and-text {
+.background-and-text,
+.footer,
+.social-network-logos ol,
+.navigations {
   display: flex;
   flex-direction: row;
 }
@@ -281,13 +284,10 @@ figure:hover figcaption {
 
 /*FOOTER*/
 
-footer {
-  display: flex;
-  flex-direction: row;
+.footer {
   justify-content: space-around;
   align-items: center;
-  padding: 100px;
-  gap: 60px;
+  padding: 0px;
   height: 535px;
   margin-top: 118px;
   background-image: url(images/footer_background.png);
@@ -303,17 +303,15 @@ footer {
 .social-network-logos ol {
   padding: 5px;
   list-style-type: none;
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
 .navigations {
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  gap: 50px;
+  padding: 100px;
+  gap: 60px;
 }
+
 .navigations nav {
   margin-top: 40px;
   width: 176px;
@@ -321,6 +319,10 @@ footer {
 
 .navigations h3 {
   font-size: 18px;
+}
+
+.navigations a {
+  color: white;
 }
 
 .navigations ol {
@@ -331,22 +333,6 @@ footer {
   line-height: 39px;
 }
 
-.navigations a {
-  color: white;
-}
-
-.navigations nav:nth-child(1) {
-  width: 107px;
-}
-
-.navigations nav:nth-child(2) {
-  width: 182px;
-}
-
-.navigations nav:nth-child(3) {
-  width: 102px;
-}
-
-.navigations nav:nth-child(4) {
-  width: 274px;
+.navigations nav {
+    width: 182px;
 }
