@@ -4,10 +4,12 @@ joinNowButton.addEventListener("click", alertBox);
 
 function alertBox(event) {
   event.preventDefault();
-  const inputElement = document.getElementById("email").value;
-  return inputElement != ""
-    ? alert(
-        ` “Thank You! Your email ${inputElement} *successfully added to our subscribers list.*”`
-      )
-    : alert("“Please enter your email.”");
+  const inputValue = document.getElementById("email").value;
+
+  const message =
+    inputValue !== ""
+      ? ` “Thank You! Your email ${inputValue} *successfully added to our subscribers list.*”`
+      : "“Please enter your email.”";
+
+  alert(message);
 }
