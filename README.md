@@ -9,7 +9,7 @@ https://travel-agency-landing-page-design-puce.vercel.app/
 ![Destinations-section-hover](https://user-images.githubusercontent.com/87233307/222389767-6aea6a81-4312-4d9a-bd7d-09953bd5c2fb.png)
 - Created hover function on buttons and links.
 - Used anchor tags for scroll the page.
-- An alert box with validation is created when the subscribe button is clicked.
+- Form with validation. Alert box opens when the subscribe button is clicked.
 ### Technologies used:
 - HTML
 - CSS/Flex-box
