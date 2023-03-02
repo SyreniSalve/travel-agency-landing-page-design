@@ -11,13 +11,6 @@ https://travel-agency-landing-page-design-puce.vercel.app/
 - Created hover function on buttons and links.
 - Added navigation in the page.
 - An alert box is created when the subscribe button is clicked
-  a) alert box with insterted email
-  
-  ![alert-box-with-email](https://user-images.githubusercontent.com/87233307/222409102-dc8267e1-b495-4537-9906-7aba26938f87.png)
-
-  b) alert box without inserted email
-  ![alert-box-without-email](https://user-images.githubusercontent.com/87233307/222409065-1549c6f4-9fdc-4872-93c7-209025895ed1.png)
-
 ### Technologies used:
 - HTML
 - CSS
