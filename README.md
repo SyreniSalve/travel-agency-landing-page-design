@@ -1,5 +1,5 @@
 # Travel Agency Landing Page Design
-Description: Desktop version of web page project for getting to know Taiwan better.
+Description: Desktop version of travel agency landing design web page for getting to know Taiwan better.
 ### Live demo:
 https://travel-agency-landing-page-design-puce.vercel.app/
 ### Screenshot:
